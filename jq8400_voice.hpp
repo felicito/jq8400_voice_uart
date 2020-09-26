@@ -52,4 +52,7 @@
     const char SET_VOLUME_VERY_HIGH[]   = {0xAA, 0x13, 0x01, 0x19, 0xD7};
     const char SET_VOLUME_MAXIMUM[]     = {0xAA, 0x13, 0x01, 0x1E, 0xDC};
 
+    //FUNTIONS
+    bool jq8400_playID(int id_voice_file, Serial *puertoCOM);
+
 #endif  //__JQ8400_VOICE_H 
