@@ -11,8 +11,11 @@
 
 #include "mbed.h"
 
-//PLAY BY NAME
-
+    //PLAY BY NAME
+    /**
+     * @brief 
+     * 
+     */
     const char PLAY_FILE01[] = {0xAA, 0x07, 0x02, 0x00, 0x01, 0xB4};
     const char PLAY_FILE02[] = {0xAA, 0x07, 0x02, 0x00, 0x02, 0xB5};
     const char PLAY_FILE03[] = {0xAA, 0x07, 0x02, 0x00, 0x03, 0xB6};
@@ -45,6 +48,10 @@
     const char PLAY_FILE30[] = {0xAA, 0x07, 0x02, 0x00, 0x1E, 0xD1};
 
     //VOLUME
+    /**
+     * @brief 
+     * 
+     */
     const char SET_VOLUME_VERY_LOW[]    = {0xAA, 0x13, 0x01, 0x05, 0xC3};
     const char SET_VOLUME_LOW[]         = {0xAA, 0x13, 0x01, 0x0A, 0xC8};
     const char SET_VOLUME_MEDIUM[]      = {0xAA, 0x13, 0x01, 0x0F, 0xCD};
@@ -54,7 +61,14 @@
 
 
 
-
+/**
+ * @brief 
+ * 
+ * @param id_voice_file 
+ * @param puertoCOM 
+ * @return true 
+ * @return false 
+ */
 extern bool jq8400_playID(int id_voice_file, Serial *puertoCOM) {
     bool result_play = false;
 
