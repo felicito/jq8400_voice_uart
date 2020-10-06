@@ -74,152 +74,152 @@ extern bool jq8400_playID(int id_voice_file, Serial *puertoCOM) {
 
     switch (id_voice_file) {
         case 1:
-            puertoCOM->printf("%s\r", PLAY_FILE01);
+            puertoCOM->write(PLAY_FILE01, sizeof(PLAY_FILE01));
             result_play = true;
             break;
 
         case 2:
-            puertoCOM->printf("%s\r", PLAY_FILE02);
+            puertoCOM->puts(PLAY_FILE02);
             result_play = true;
             break;
             
         case 3:
-            puertoCOM->printf("%s\r", PLAY_FILE03);
+            puertoCOM->puts(PLAY_FILE03);
             result_play = true;
             break;
             
         case 4:
-            puertoCOM->printf("%s\r", PLAY_FILE04);
+            puertoCOM->puts(PLAY_FILE04);
             result_play = true;
             break;
             
         case 5:
-            puertoCOM->printf("%s\r", PLAY_FILE05);
+            puertoCOM->puts(PLAY_FILE05);
             result_play = true;
             break;
             
         case 6:
-            puertoCOM->printf("%s\r", PLAY_FILE06);
+            puertoCOM->puts(PLAY_FILE06);
             result_play = true;
             break;
             
         case 7:
-            puertoCOM->printf("%s\r", PLAY_FILE07);
+            puertoCOM->puts(PLAY_FILE07);
             result_play = true;
             break;
             
         case 8:
-            puertoCOM->printf("%s\r", PLAY_FILE08);
+            puertoCOM->puts(PLAY_FILE08);
             result_play = true;
             break;
             
         case 9:
-            puertoCOM->printf("%s\r", PLAY_FILE09);
+            puertoCOM->puts(PLAY_FILE09);
             result_play = true;
             break;
             
         case 10:
-            puertoCOM->printf("%s\r", PLAY_FILE10);
+            puertoCOM->puts(PLAY_FILE10);
             result_play = true;
             break;
             
         case 11:
-            puertoCOM->printf("%s\r", PLAY_FILE11);
+            puertoCOM->puts(PLAY_FILE11);
             result_play = true;
             break;
             
         case 12:
-            puertoCOM->printf("%s\r", PLAY_FILE12);
+            puertoCOM->puts(PLAY_FILE12);
             result_play = true;
             break;
             
         case 13:
-            puertoCOM->printf("%s\r", PLAY_FILE13);
+            puertoCOM->puts(PLAY_FILE13);
             result_play = true;
             break;
             
         case 14:
-            puertoCOM->printf("%s\r", PLAY_FILE14);
+            puertoCOM->puts(PLAY_FILE14);
             result_play = true;
             break;
             
         case 15:
-            puertoCOM->printf("%s\r", PLAY_FILE15);
+            puertoCOM->puts(PLAY_FILE15);
             result_play = true;
             break;
             
         case 16:
-            puertoCOM->printf("%s\r", PLAY_FILE16);
+            puertoCOM->puts(PLAY_FILE16);
             result_play = true;
             break;
             
         case 17:
-            puertoCOM->printf("%s\r", PLAY_FILE17);
+            puertoCOM->puts(PLAY_FILE17);
             result_play = true;
             break;
             
         case 18:
-            puertoCOM->printf("%s\r", PLAY_FILE18);
+            puertoCOM->puts(PLAY_FILE18);
             result_play = true;
             break;
             
         case 19:
-            puertoCOM->printf("%s\r", PLAY_FILE19);
+            puertoCOM->puts(PLAY_FILE19);
             result_play = true;
             break;
             
         case 20:
-            puertoCOM->printf("%s\r", PLAY_FILE20);
+            puertoCOM->puts(PLAY_FILE20);
             result_play = true;
             break;
             
         case 21:
-            puertoCOM->printf("%s\r", PLAY_FILE21);
+            puertoCOM->puts(PLAY_FILE21);
             result_play = true;
             break;
             
         case 22:
-            puertoCOM->printf("%s\r", PLAY_FILE22);
+            puertoCOM->puts(PLAY_FILE22);
             result_play = true;
             break;
             
         case 23:
-            puertoCOM->printf("%s\r", PLAY_FILE23);
+            puertoCOM->puts(PLAY_FILE23);
             result_play = true;
             break;
             
         case 24:
-            puertoCOM->printf("%s\r", PLAY_FILE24);
+            puertoCOM->puts(PLAY_FILE24);
             result_play = true;
             break;
             
         case 25:
-            puertoCOM->printf("%s\r", PLAY_FILE25);
+            puertoCOM->puts(PLAY_FILE25);
             result_play = true;
             break;
             
         case 26:
-            puertoCOM->printf("%s\r", PLAY_FILE26);
+            puertoCOM->puts(PLAY_FILE26);
             result_play = true;
             break;
             
         case 27:
-            puertoCOM->printf("%s\r", PLAY_FILE27);
+            puertoCOM->puts(PLAY_FILE27);
             result_play = true;
             break;
             
         case 28:
-            puertoCOM->printf("%s\r", PLAY_FILE28);
+            puertoCOM->puts(PLAY_FILE28);
             result_play = true;
             break;
             
         case 29:
-            puertoCOM->printf("%s\r", PLAY_FILE29);
+            puertoCOM->puts(PLAY_FILE29);
             result_play = true;
             break;
 
         case 30:
-            puertoCOM->printf("%s\r", PLAY_FILE30);
+            puertoCOM->puts(PLAY_FILE30);
             result_play = true;
             break;
 
