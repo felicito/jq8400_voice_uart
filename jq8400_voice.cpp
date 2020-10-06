@@ -79,7 +79,7 @@ extern bool jq8400_playID(int id_voice_file, Serial *puertoCOM) {
             break;
 
         case 2:
-            puertoCOM->puts(PLAY_FILE02);
+            puertoCOM->write(PLAY_FILE02, sizeof(PLAY_FILE02));
             result_play = true;
             break;
             
